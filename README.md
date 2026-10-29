@@ -22,7 +22,7 @@ Compara duas CNNs pré-treinadas no ImageNet, ajustadas por fine-tuning, na clas
 ## 2. Detecção de tumores cerebrais em imagens de ressonância magnética por transfer learning com validação cruzada por grupos
 
 **Autores:** Matheus Lemes Amaral, Eduardo Jesus Dal Pizzol · 2026
-📄 [PDF](2026-tumor-cerebral-rm-validacao-por-grupos.pdf) · 💻 [Código](LINK_DO_REPOSITORIO)
+📄 [PDF](2026-tumor-cerebral-rm-validacao-por-grupos.pdf) 
 
 Classifica fatias de RM cerebral em "com tumor" e "sem tumor" em um conjunto público pequeno, com foco no protocolo para eliminar vazamento de dados. Foram removidas 25 cópias idênticas, as quase-duplicatas foram agrupadas por hash perceptual (216 grupos) e a avaliação usou validação cruzada estratificada por grupos (5 folds × 3 sementes).
 
